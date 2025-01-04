@@ -39,7 +39,7 @@ crontab -e
 This will open the crontab editor.
 Add the following line to the editor:
 ```
-* * * * * /path/to/your/script/organize_screenshots.scpt 
+* * * * * /path/to/your/script/MoveScreenshots.scpt 
 ````
 This will run the script every minute. If you'd like to run the script at different times , you can check out [Cronjobs Schedule Syntax](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) 
 
